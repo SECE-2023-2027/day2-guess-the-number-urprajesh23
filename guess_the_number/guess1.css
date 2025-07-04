@@ -1,0 +1,92 @@
+/* Reset and Base Styles */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+}
+
+/* Again Button */
+.agian {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.agian:hover {
+  background-color: #23d148;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5rem;
+}
+
+/* Question Mark */
+.q-mark {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 30px auto;
+  background-color: white;
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+}
+
+/* Message */
+.s-guess {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Input and Check Button */
+#inputbox {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.check-btn {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Scores */
+#p-score, #p-h-score {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+#score, #h-score {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+}
